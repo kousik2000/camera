@@ -6,6 +6,7 @@ import Cookies from 'js-cookie'
 import './index.css'
 
 import VideoContainer from '../VideoContainer'
+import AdComponent from '../AdComponent'
 
 const Home = () => {
   const [date, setDate] = useState("");
@@ -57,6 +58,7 @@ const Home = () => {
         </div>
       </div>
       <VideoContainer/>
+      <AdComponent/>
       {/* <Svg/> */}
     </div>
   )
